@@ -1,0 +1,345 @@
+*{
+  
+
+}
+
+
+#bg {
+  background: url('123-1237938_transparent-brush-stroke-clipart-blue-paint-swatch-png.png') center center no-repeat;
+  width: 100%;
+  padding: 50px;
+}
+
+#aboutusupper {
+  background: url('http://www.nlkidscare.com/assets/img/bg-abouttop.png') bottom center no-repeat;
+  background-size: contain;
+  min-height: 100px;
+}
+
+#aboutusbottom {
+  background: url('http://www.nlkidscare.com/assets/img/bg-aboutbtm.png') top center no-repeat;
+  background-size: contain;
+  min-height: 100px;
+}
+
+#about {
+  background-color: #f5edf9;
+}
+
+#about {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.owl-prev {
+  left: -30px;
+}
+
+.owl-next {
+  right: -30px;
+}
+
+
+#welcome {
+  background-color: #6a2a7e;
+}
+
+
+#card {
+  background: url('C1.png') center no-repeat; 
+  width: 15rem;
+  height: 19rem;
+}
+
+#text1 {
+  padding-top: 70px;
+}
+
+#bg-image {
+  background: url('NL_kidscare_13.png') center center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#knowbutton {
+  border: 1px solid #7b3f97;
+  color: white;
+  border-radius: 25px;
+  padding: 9px 7px;
+  background-color: #7b3f97;
+  /* margin-top: 100px; */
+  /* transform: translate(0px , 120px); */
+}
+
+#knowbutton:hover {
+  background-color: white;
+  color: purple;
+}
+
+#knowdot {
+  border: 2px dotted #ffffff;
+  padding: 2px 30px;
+  border-radius: 30px;
+  margin-top: 40px;
+
+
+}
+
+
+#pencil {
+  font-size: 30px;
+}
+
+
+#navbarNav {
+  padding-right: 100px;
+}
+
+#banner {
+  background: url('http://www.nlkidscare.com/assets/img/bg_hmbnr.png');
+  background-size: cover;
+}
+
+
+#blue {
+
+  color: rgb(37, 175, 230);
+}
+
+#orange {
+  color: orange;
+}
+
+#green {
+  color: rgb(72, 186, 72);
+}
+
+#red {
+  color: red;
+}
+
+#childimage {
+  height: 300px;
+  width: 300px;
+}
+
+#contact{
+background: url('http://www.nlkidscare.com/assets/img/bg-hmcontact.png') center center no-repeat;
+padding: 60px 0px 90px 0px;
+margin: 20px 0px;
+
+
+
+}
+
+@media only screen and (max-width: 576px) {
+  .r1 a {
+    display: block;
+  }
+
+  #firstnavbar {
+    background-color: #6a2a7e;
+
+  }
+
+  #welcome {
+    background-color: #481857;
+  }
+
+  #childimage {
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .r1 a {
+    display: block;
+  }
+
+  #pencil {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  #firstnavbar {
+    background-color: #6a2a7e;
+
+  }
+
+  #welcome {
+    background-color: #481857;
+  }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #pencil {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #firstnavbar {
+    background-color: #6a2a7e;
+
+  }
+
+  #welcome {
+    background-color: #481857;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #pencil {
+    font-size: 13px;
+  }
+
+  #navbarNav {
+    padding-right: 0px;
+  }
+
+  #welcome {
+    background-color: #6a2a7e;
+  }
+
+  #childimage {
+    /* margin-top: 30px; */
+    height: 350px;
+    width: 350px;
+  }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #pencil {
+    font-size: 15px;
+  }
+
+  #navbarNav {
+    padding-right: 0px;
+  }
+
+
+  #logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 450px;
+    width: 360px;
+  }
+
+  #holenav {
+    position: relative;
+    z-index: -1;
+  }
+
+  #welcome {
+    padding-left: 300px;
+    background-color: #6a2a7e;
+  }
+
+  #afterschool {
+    padding-left: 180px;
+  }
+
+  #childimage {
+    /* margin-top: 30px; */
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+  #pencil {
+    font-size: 18px;
+  }
+
+  #imgpencil {
+    height: 450px;
+    width: 450px;
+  }
+
+  #navbarNav {
+    padding-right: 150px;
+    font-size: 14px;
+  }
+
+
+  #logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 500px;
+    width: 500px;
+  }
+
+  #holenav {
+    position: relative;
+    z-index: -1;
+  }
+
+  #welcome {
+    padding-left: 300px;
+    background-color: #6a2a7e;
+    font-size: 14px;
+  }
+
+  #afterschool {
+    padding-left: 200px;
+    font-size: 14px;
+  }
+
+  #childimage {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+
+  #navbarNav {
+    padding-right: 130px;
+    font-size: 14px;
+  }
+  #pencil {
+    font-size: 20px;
+  }
+
+  #logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+
+  #holenav {
+    position: relative;
+    z-index: -1;
+  }
+
+  #welcome {
+    background-color: #6a2a7e;
+    padding-left: 300px;
+    font-size: 14px;
+  }
+
+  #afterschool {
+    padding-left: 200px;
+    font-size: 12px;
+  }
+
+  #childimage {
+    height: 400px;
+    width: 400px;
+  }
+
+}
